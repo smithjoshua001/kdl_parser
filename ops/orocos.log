@@ -1,0 +1,262 @@
+0.000 [ Info   ][Logger] No ORO_LOGLEVEL environment variable set.
+0.000 [ Info   ][Logger]  OROCOS version '2.8.2' compiled with GCC 4.8.4. Running in GNU/Linux.
+0.000 [ Info   ][Logger] Orocos Logging Activated at level : [ Warning] ( 4 ) 
+0.000 [ Info   ][Logger] Reference System Time is : 1466051066093565505 ticks ( 1.46605e+09 seconds ).
+0.000 [ Info   ][Logger] Logging is relative to this time.
+0.000 [ Info   ][Logger] RTT_COMPONENT_PATH was set to: /home/joshua/cogimon-meeting/cogimon-minimal-nightly/lib/orocos:/home/joshua/cogimon-meeting/workspace_cogimon/build/orocos:/home/joshua/cogimon-meeting/workspace_cogimon/workshop-extended-example/ops/orocos:/home/joshua/cogimon-meeting/workspace_cogimon/build/orocos:/home/joshua/cogimon-meeting/workspace_cogimon/build/workshop-extended-example/orocos . Searching in: /home/joshua/cogimon-meeting/cogimon-minimal-nightly/lib/orocos:/home/joshua/cogimon-meeting/workspace_cogimon/build/orocos:/home/joshua/cogimon-meeting/workspace_cogimon/workshop-extended-example/ops/orocos:/home/joshua/cogimon-meeting/workspace_cogimon/build/workshop-extended-example/orocos
+0.000 [ Info   ][Logger] plugin 'rtt' not loaded before.
+0.000 [ Info   ][Logger] Loading plugin libraries from directory /home/joshua/cogimon-meeting/cogimon-minimal-nightly/lib/orocos/gnulinux/./plugins ...
+0.000 [ Info   ][Logger] Loaded RTT Service 'scripting' from 'rtt-scripting'
+0.001 [ Info   ][Logger] Loaded RTT Service 'marshalling' from 'rtt-marshalling'
+0.001 [ Info   ][Logger] typekit 'rtt' not loaded before.
+0.001 [ Info   ][Logger] Loading typekit libraries from directory /home/joshua/cogimon-meeting/cogimon-minimal-nightly/lib/orocos/gnulinux/./types ...
+0.002 [ Info   ][TypekitRepository::Import] Loading Transport mqueue://rtt-types.
+0.002 [ Info   ][Logger] Loaded RTT TypeKit/Transport 'rtt-mqueue-transport' from 'rtt-transport-mqueue'
+0.011 [ Info   ][TypekitRepository::Import] Loading Transport CORBA://rtt-types.
+0.011 [ Info   ][Logger] Loaded RTT TypeKit/Transport 'rtt-corba-types' from 'rtt-transport-corba'
+0.024 [ Info   ][TypekitRepository::Import] Loading Typekit rtt-types.
+0.025 [ Info   ][TypekitRepository::Import] Registered new 'mqueue' transport for int
+0.025 [ Info   ][TypekitRepository::Import] Registered new 'CORBA' transport for int
+0.025 [ Info   ][TypekitRepository::Import] Registered new 'mqueue' transport for uint
+0.025 [ Info   ][TypekitRepository::Import] Registered new 'CORBA' transport for uint
+0.025 [ Info   ][TypekitRepository::Import] Registered new 'mqueue' transport for double
+0.025 [ Info   ][TypekitRepository::Import] Registered new 'CORBA' transport for double
+0.025 [ Info   ][TypekitRepository::Import] Registered new 'mqueue' transport for float
+0.025 [ Info   ][TypekitRepository::Import] Registered new 'CORBA' transport for float
+0.025 [ Info   ][TypekitRepository::Import] Registered new 'mqueue' transport for char
+0.025 [ Info   ][TypekitRepository::Import] Registered new 'CORBA' transport for char
+0.025 [ Info   ][TypekitRepository::Import] Registered new 'mqueue' transport for bool
+0.025 [ Info   ][TypekitRepository::Import] Registered new 'CORBA' transport for bool
+0.025 [ Info   ][TypekitRepository::Import] Registered new 'CORBA' transport for void
+0.025 [ Info   ][TypekitRepository::Import] Registered new 'CORBA' transport for ConnPolicy
+0.025 [ Info   ][TypekitRepository::Import] Registered new 'CORBA' transport for TaskContext
+0.025 [ Info   ][TypekitRepository::Import] Registered new 'CORBA' transport for string
+0.025 [ Info   ][TypekitRepository::Import] Registered new 'mqueue' transport for array
+0.025 [ Info   ][TypekitRepository::Import] Registered new 'CORBA' transport for array
+0.025 [ Info   ][TypekitRepository::Import] Registered new 'CORBA' transport for rt_string
+0.025 [ Info   ][Logger] Loaded RTT TypeKit/Transport 'rtt-types' from 'rtt-typekit'
+0.025 [ Info   ][Logger] RTT_COMPONENT_PATH was set to: /home/joshua/cogimon-meeting/cogimon-minimal-nightly/lib/orocos:/home/joshua/cogimon-meeting/workspace_cogimon/build/orocos:/home/joshua/cogimon-meeting/workspace_cogimon/workshop-extended-example/ops/orocos:/home/joshua/cogimon-meeting/workspace_cogimon/build/orocos:/home/joshua/cogimon-meeting/workspace_cogimon/build/workshop-extended-example/orocos . Searching in: /home/joshua/cogimon-meeting/cogimon-minimal-nightly/lib/orocos:/home/joshua/cogimon-meeting/workspace_cogimon/build/orocos:/home/joshua/cogimon-meeting/workspace_cogimon/workshop-extended-example/ops/orocos:/home/joshua/cogimon-meeting/workspace_cogimon/build/workshop-extended-example/orocos
+0.025 [ Info   ][Logger] OCL factory set for real-time logging
+0.025 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='Deployer'
+0.025 [ Info   ][Deployer] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 15 and period 0 (PID= 7853 ).
+0.025 [ Info   ][Logger] No site file was found. Importing 'ocl' by default.
+0.025 [ Info   ][ComponentLoader::import(path_list)] Importing directory /home/joshua/cogimon-meeting/cogimon-minimal-nightly/lib/orocos/gnulinux/ocl ...
+0.030 [ Info   ][ComponentLoader::import(path_list)] Loaded component type 'OCL::logging::Log4cxxAppender'
+0.031 [ Info   ][ComponentLoader::import(path_list)] Loaded multi component library '/home/joshua/cogimon-meeting/cogimon-minimal-nightly/lib/orocos/gnulinux/ocl/liborocos-ocl-timer-gnulinux.so'
+0.032 [ Info   ][ComponentLoader::import(path_list)] Loaded multi component library '/home/joshua/cogimon-meeting/cogimon-minimal-nightly/lib/orocos/gnulinux/ocl/liborocos-ocl-reporting-gnulinux.so'
+0.033 [ Info   ][ComponentLoader::import(path_list)] Loaded component type 'OCL::HelloWorld'
+0.040 [ Info   ][ComponentLoader::import(path_list)] Loaded multi component library '/home/joshua/cogimon-meeting/cogimon-minimal-nightly/lib/orocos/gnulinux/ocl/liborocos-ocl-reporting-netcdf-gnulinux.so'
+0.040 [ Info   ][ComponentLoader::import(path_list)] Loaded component type 'OCL::NetcdfReporting'
+0.041 [ Info   ][ComponentLoader::import(path_list)] Loaded multi component library '/home/joshua/cogimon-meeting/cogimon-minimal-nightly/lib/orocos/gnulinux/ocl/liborocos-ocl-common-gnulinux.so'
+0.042 [ Info   ][ComponentLoader::import(path_list)] Loaded multi component library '/home/joshua/cogimon-meeting/cogimon-minimal-nightly/lib/orocos/gnulinux/ocl/liborocos-ocl-logging-gnulinux.so'
+0.042 [ Info   ][ComponentLoader::import(path_list)] Loading typekit libraries from directory /home/joshua/cogimon-meeting/cogimon-minimal-nightly/lib/orocos/gnulinux/ocl/types ...
+0.044 [ Info   ][TypekitRepository::Import] Loading Typekit OCLTypekit.
+0.044 [ Info   ][ComponentLoader::import(path_list)] Loaded RTT TypeKit/Transport 'OCLTypekit' from 'ocl'
+0.044 [ Info   ][ComponentLoader::import(path_list)] Loading plugin libraries from directory /home/joshua/cogimon-meeting/cogimon-minimal-nightly/lib/orocos/gnulinux/ocl/plugins ...
+0.044 [ Info   ][ComponentLoader::import(path_list)] Loaded RTT Service 'print' from 'print'
+0.045 [ Info   ][ComponentLoader::import(path_list)] Loaded RTT Service 'os' from 'os'
+0.045 [ Info   ][Logger] Loading Service or Plugin scripting in TaskContext Deployer
+0.046 [ Info   ][Logger] Found complete interface of requested service 'scripting'
+0.046 [ Info   ][Logger] Running Script extended_example.ops ...
+0.046 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='GlobalEngine'
+0.046 [ Info   ][GlobalEngine] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 15 and period 0 (PID= 7854 ).
+0.047 [ Info   ][ComponentLoader::import(path_list)] Importing directory /home/joshua/cogimon-meeting/cogimon-minimal-nightly/lib/orocos/gnulinux/eigen_typekit ...
+0.047 [ Info   ][ComponentLoader::import(path_list)] Loading typekit libraries from directory /home/joshua/cogimon-meeting/cogimon-minimal-nightly/lib/orocos/gnulinux/eigen_typekit/types ...
+0.049 [ Info   ][TypekitRepository::Import] Loading Typekit Eigen.
+0.049 [ Info   ][ComponentLoader::import(path_list)] Loaded RTT TypeKit/Transport 'Eigen' from 'eigen_typekit'
+0.049 [ Info   ][ComponentLoader::import(path_list)] Importing directory /home/joshua/cogimon-meeting/cogimon-minimal-nightly/lib/orocos/gnulinux/kdl_typekit ...
+0.049 [ Info   ][ComponentLoader::import(path_list)] Loading typekit libraries from directory /home/joshua/cogimon-meeting/cogimon-minimal-nightly/lib/orocos/gnulinux/kdl_typekit/types ...
+0.071 [ Info   ][TypekitRepository::Import] Loading Typekit KDL.
+0.071 [ Info   ][ComponentLoader::import(path_list)] Loaded RTT TypeKit/Transport 'KDL' from 'kdl_typekit'
+0.072 [ Info   ][TypekitRepository::Import] Loading Transport CORBA://KDL.
+0.072 [ Info   ][TypekitRepository::Import] Registered new 'CORBA' transport for KDL.Frame
+0.072 [ Info   ][TypekitRepository::Import] Registered new 'CORBA' transport for KDL.Rotation
+0.072 [ Info   ][TypekitRepository::Import] Registered new 'CORBA' transport for KDL.Twist
+0.072 [ Info   ][TypekitRepository::Import] Registered new 'CORBA' transport for KDL.Vector
+0.072 [ Info   ][TypekitRepository::Import] Registered new 'CORBA' transport for KDL.Wrench
+0.072 [ Info   ][ComponentLoader::import(path_list)] Loaded RTT TypeKit/Transport 'kdl-corba-types' from 'kdl-transport-corba'
+0.073 [ Info   ][ComponentLoader::import(path_list)] Importing directory /home/joshua/cogimon-meeting/cogimon-minimal-nightly/lib/orocos/gnulinux/rst-rt_typekit ...
+0.073 [ Info   ][ComponentLoader::import(path_list)] Loading typekit libraries from directory /home/joshua/cogimon-meeting/cogimon-minimal-nightly/lib/orocos/gnulinux/rst-rt_typekit/types ...
+0.085 [ Info   ][TypekitRepository::Import] Loading Typekit rrct.
+0.086 [ Info   ][ComponentLoader::import(path_list)] Loaded RTT TypeKit/Transport 'rrct' from 'rst-rt_typekit'
+0.086 [ Info   ][ComponentLoader::import(path_list)] Importing directory /home/joshua/cogimon-meeting/cogimon-minimal-nightly/lib/orocos/gnulinux/rtt_rsbcomm ...
+0.086 [ Info   ][ComponentLoader::import(path_list)] Loading typekit libraries from directory /home/joshua/cogimon-meeting/cogimon-minimal-nightly/lib/orocos/gnulinux/rtt_rsbcomm/types ...
+0.100 [ Info   ][TypekitRepository::Import] Loading Transport rsb+socket://rsb.
+0.100 [ Info   ][TypekitRepository::Import] Registered new 'rsb+socket' transport for bool
+0.100 [ Info   ][TypekitRepository::Import] Registered new 'rsb+socket' transport for char
+0.100 [ Info   ][TypekitRepository::Import] Registered new 'rsb+socket' transport for double
+0.100 [ Info   ][TypekitRepository::Import] Registered new 'rsb+socket' transport for float
+0.100 [ Info   ][TypekitRepository::Import] Registered new 'rsb+socket' transport for int
+0.100 [ Info   ][TypekitRepository::Import] Registered new 'rsb+socket' transport for rstrt.dynamics.JointImpedance
+0.100 [ Info   ][TypekitRepository::Import] Registered new 'rsb+socket' transport for rstrt.dynamics.JointTorques
+0.100 [ Info   ][TypekitRepository::Import] Registered new 'rsb+socket' transport for rstrt.geometry.Translation
+0.100 [ Info   ][TypekitRepository::Import] Registered new 'rsb+socket' transport for rstrt.kinematics.JointAccelerations
+0.100 [ Info   ][TypekitRepository::Import] Registered new 'rsb+socket' transport for rstrt.kinematics.JointAngles
+0.100 [ Info   ][TypekitRepository::Import] Registered new 'rsb+socket' transport for rstrt.kinematics.JointVelocities
+0.100 [ Info   ][TypekitRepository::Import] Registered new 'rsb+socket' transport for rstrt.robot.JointState
+0.100 [ Info   ][TypekitRepository::Import] Registered new 'rsb+socket' transport for string
+0.100 [ Info   ][TypekitRepository::Import] Registered new 'rsb+socket' transport for uint
+0.100 [ Info   ][ComponentLoader::import(path_list)] Loaded RTT TypeKit/Transport 'rtt-rsb-socket-transport' from 'rtt-rsb-socket-transport'
+0.100 [ Info   ][ComponentLoader::import(path_list)] Loading plugin libraries from directory /home/joshua/cogimon-meeting/cogimon-minimal-nightly/lib/orocos/gnulinux/rtt_rsbcomm/plugins ...
+0.101 [ Info   ][ComponentLoader::import(path_list)] Loaded RTT Plugin 'rtt-rsb-scope-service' from 'rtt-rsb-scope-service'
+0.101 [ Info   ][ComponentLoader::import(path_list)] Importing directory /home/joshua/cogimon-meeting/cogimon-minimal-nightly/lib/orocos/gnulinux/rtt_gazebo_embedded ...
+0.183 [ Info   ][ComponentLoader::import(path_list)] Loaded component type 'RTTGazeboEmbedded'
+0.185 [ Info   ][ComponentLoader::import(path_list)] Loaded component type 'ModelPluginExample'
+0.185 [ Info   ][ComponentLoader::import(path_list)] Importing directory /home/joshua/cogimon-meeting/cogimon-minimal-nightly/lib/orocos/gnulinux/rtt-gazebo-robot-sim ...
+0.192 [ Info   ][ComponentLoader::import(path_list)] Loaded multi component library '/home/joshua/cogimon-meeting/cogimon-minimal-nightly/lib/orocos/gnulinux/rtt-gazebo-robot-sim/librtt-gazebo-robot-sim-gnulinux.so'
+0.192 [ Info   ][ComponentLoader::import(path_list)] Importing directory /home/joshua/cogimon-meeting/cogimon-minimal-nightly/lib/orocos/gnulinux/rtt-core-extensions ...
+0.197 [ Info   ][ComponentLoader::import(path_list)] Loaded multi component library '/home/joshua/cogimon-meeting/cogimon-minimal-nightly/lib/orocos/gnulinux/rtt-core-extensions/librtt-core-extensions-components-gnulinux.so'
+0.198 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='gazebo'
+0.198 [ Info   ][gazebo] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 15 and period 0 (PID= 7856 ).
+0.198 [ Info   ][loadComponent] Creating gazebo with gazebo embedded !
+0.198 [ Info   ][loadComponent] Adding gazebo as new peer:  OK.
+0.198 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=10, CPU affinity=4294967295, with name='gazebo'
+0.198 [ Warning][Thread] Forcing priority (10) of thread with SCHED_OTHER policy to 0.
+0.198 [ Info   ][gazebo] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 15 and period 0 (PID= 7857 ).
+0.200 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='coman_gazebo'
+0.200 [ Info   ][coman_gazebo] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 15 and period 0 (PID= 7858 ).
+0.200 [ Info   ][loadComponent] Adding coman_gazebo as new peer:  OK.
+0.200 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=11, CPU affinity=4294967295, with name='coman_gazebo'
+0.200 [ Warning][Thread] Forcing priority (11) of thread with SCHED_OTHER policy to 0.
+0.200 [ Info   ][coman_gazebo] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 15 and period 0 (PID= 7859 ).
+0.200 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='coman_left_arm_JointPositionCtrl'
+0.201 [ Info   ][coman_left_arm_JointPositionCtrl] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 15 and period 0 (PID= 7860 ).
+0.201 [ Info   ][loadComponent] Adding coman_left_arm_JointPositionCtrl as new peer:  OK.
+0.201 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=12, CPU affinity=4294967295, with name='coman_left_arm_JointPositionCtrl'
+0.201 [ Warning][Thread] Forcing priority (12) of thread with SCHED_OTHER policy to 0.
+0.201 [ Info   ][coman_left_arm_JointPositionCtrl] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 15 and period 0.01 (PID= 7861 ).
+0.201 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='coman_right_arm_JointTorqueCtrl'
+0.201 [ Info   ][coman_right_arm_JointTorqueCtrl] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 15 and period 0 (PID= 7862 ).
+0.201 [ Info   ][loadComponent] Adding coman_right_arm_JointTorqueCtrl as new peer:  OK.
+0.202 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=12, CPU affinity=4294967295, with name='coman_right_arm_JointTorqueCtrl'
+0.202 [ Warning][Thread] Forcing priority (12) of thread with SCHED_OTHER policy to 0.
+0.202 [ Info   ][coman_right_arm_JointTorqueCtrl] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 15 and period 0.01 (PID= 7863 ).
+0.202 [ Info   ][ScriptingService] Creating world at worlds/empty.world
+1.159 [ Info   ][ScriptingService] Model [iit-coman-robot] successfully loaded !
+1.160 [ Info   ][ScriptingService] Model name iit-coman-robot
+1.160 [ Info   ][ScriptingService] Model has 29 joints
+1.160 [ Info   ][ScriptingService] Model has 30 links
+1.160 [ Info   ][ScriptingService] Creating Kinematic Chain left_arm
+1.160 [ Info   ][ScriptingService] Joints: 
+1.160 [ Info   ][ScriptingService]     LShSag
+1.160 [ Info   ][ScriptingService]     LShLat
+1.160 [ Info   ][ScriptingService]     LShYaw
+1.160 [ Info   ][ScriptingService]     LElbj
+1.160 [ Info   ][ScriptingService]     LForearmPlate
+1.160 [ Info   ][ScriptingService]     LWrj1
+1.160 [ Info   ][ScriptingService]     LWrj2
+1.160 [ Info   ][ScriptingService] Creating Kinematic Chain left_leg
+1.160 [ Info   ][ScriptingService] Joints: 
+1.160 [ Info   ][ScriptingService]     LHipSag
+1.160 [ Info   ][ScriptingService]     LHipLat
+1.160 [ Info   ][ScriptingService]     LHipYaw
+1.160 [ Info   ][ScriptingService]     LKneeSag
+1.160 [ Info   ][ScriptingService]     LAnkLat
+1.160 [ Info   ][ScriptingService]     LAnkSag
+1.160 [ Info   ][ScriptingService] Creating Kinematic Chain right_arm
+1.160 [ Info   ][ScriptingService] Joints: 
+1.160 [ Info   ][ScriptingService]     RShSag
+1.160 [ Info   ][ScriptingService]     RShLat
+1.160 [ Info   ][ScriptingService]     RShYaw
+1.160 [ Info   ][ScriptingService]     RElbj
+1.160 [ Info   ][ScriptingService]     RForearmPlate
+1.160 [ Info   ][ScriptingService]     RWrj1
+1.160 [ Info   ][ScriptingService]     RWrj2
+1.160 [ Info   ][ScriptingService] Creating Kinematic Chain right_leg
+1.160 [ Info   ][ScriptingService] Joints: 
+1.160 [ Info   ][ScriptingService]     RHipSag
+1.160 [ Info   ][ScriptingService]     RHipLat
+1.160 [ Info   ][ScriptingService]     RHipYaw
+1.160 [ Info   ][ScriptingService]     RKneeSag
+1.160 [ Info   ][ScriptingService]     RAnkLat
+1.160 [ Info   ][ScriptingService]     RAnkSag
+1.160 [ Info   ][ScriptingService] Creating Kinematic Chain torso
+1.160 [ Info   ][ScriptingService] Joints: 
+1.160 [ Info   ][ScriptingService]     WaistLat
+1.160 [ Info   ][ScriptingService]     WaistSag
+1.160 [ Info   ][ScriptingService]     WaistYaw
+1.160 [ Info   ][ScriptingService] Kinematic Chains map created!
+1.160 [ Info   ][ScriptingService] Joint LElbj in chain left_arm has scoped name iit-coman-robot::LElbj
+1.160 [ Info   ][ScriptingService] Joint LForearmPlate in chain left_arm has scoped name iit-coman-robot::LForearmPlate
+1.160 [ Info   ][ScriptingService] Joint LShLat in chain left_arm has scoped name iit-coman-robot::LShLat
+1.160 [ Info   ][ScriptingService] Joint LShSag in chain left_arm has scoped name iit-coman-robot::LShSag
+1.160 [ Info   ][ScriptingService] Joint LShYaw in chain left_arm has scoped name iit-coman-robot::LShYaw
+1.160 [ Info   ][ScriptingService] Joint LWrj1 in chain left_arm has scoped name iit-coman-robot::LWrj1
+1.160 [ Info   ][ScriptingService] Joint LWrj2 in chain left_arm has scoped name iit-coman-robot::LWrj2
+1.161 [ Info   ][ScriptingService] Joint LAnkLat in chain left_leg has scoped name iit-coman-robot::LAnkLat
+1.161 [ Info   ][ScriptingService] Joint LAnkSag in chain left_leg has scoped name iit-coman-robot::LAnkSag
+1.161 [ Info   ][ScriptingService] Joint LHipLat in chain left_leg has scoped name iit-coman-robot::LHipLat
+1.161 [ Info   ][ScriptingService] Joint LHipSag in chain left_leg has scoped name iit-coman-robot::LHipSag
+1.161 [ Info   ][ScriptingService] Joint LHipYaw in chain left_leg has scoped name iit-coman-robot::LHipYaw
+1.161 [ Info   ][ScriptingService] Joint LKneeSag in chain left_leg has scoped name iit-coman-robot::LKneeSag
+1.161 [ Info   ][ScriptingService] Joint RElbj in chain right_arm has scoped name iit-coman-robot::RElbj
+1.161 [ Info   ][ScriptingService] Joint RForearmPlate in chain right_arm has scoped name iit-coman-robot::RForearmPlate
+1.161 [ Info   ][ScriptingService] Joint RShLat in chain right_arm has scoped name iit-coman-robot::RShLat
+1.161 [ Info   ][ScriptingService] Joint RShSag in chain right_arm has scoped name iit-coman-robot::RShSag
+1.161 [ Info   ][ScriptingService] Joint RShYaw in chain right_arm has scoped name iit-coman-robot::RShYaw
+1.161 [ Info   ][ScriptingService] Joint RWrj1 in chain right_arm has scoped name iit-coman-robot::RWrj1
+1.161 [ Info   ][ScriptingService] Joint RWrj2 in chain right_arm has scoped name iit-coman-robot::RWrj2
+1.161 [ Info   ][ScriptingService] Joint RAnkLat in chain right_leg has scoped name iit-coman-robot::RAnkLat
+1.161 [ Info   ][ScriptingService] Joint RAnkSag in chain right_leg has scoped name iit-coman-robot::RAnkSag
+1.161 [ Info   ][ScriptingService] Joint RHipLat in chain right_leg has scoped name iit-coman-robot::RHipLat
+1.161 [ Info   ][ScriptingService] Joint RHipSag in chain right_leg has scoped name iit-coman-robot::RHipSag
+1.161 [ Info   ][ScriptingService] Joint RHipYaw in chain right_leg has scoped name iit-coman-robot::RHipYaw
+1.161 [ Info   ][ScriptingService] Joint RKneeSag in chain right_leg has scoped name iit-coman-robot::RKneeSag
+1.162 [ Info   ][ScriptingService] Joint WaistLat in chain torso has scoped name iit-coman-robot::WaistLat
+1.162 [ Info   ][ScriptingService] Joint WaistSag in chain torso has scoped name iit-coman-robot::WaistSag
+1.162 [ Info   ][ScriptingService] Joint WaistYaw in chain torso has scoped name iit-coman-robot::WaistYaw
+1.162 [ Info   ][ScriptingService] Kinematic Chains Initialized!
+1.162 [ Warning][ScriptingService] Done configuring component
+1.165 [ Info   ][connect] Connected Port coman_left_arm_JointPositionCtrl.left_arm_JointPositionCtrl to  coman_gazebo.left_arm_JointPositionCtrl.
+1.165 [ Info   ][connect] Connected Port coman_gazebo.left_arm_JointFeedback to  coman_left_arm_JointPositionCtrl.left_arm_JointFeedback.
+1.166 [ Info   ][connect] Connected Port coman_right_arm_JointTorqueCtrl.right_arm_JointTorqueCtrl to  coman_gazebo.right_arm_JointTorqueCtrl.
+1.166 [ Info   ][connect] Connected Port coman_gazebo.right_arm_JointFeedback to  coman_right_arm_JointTorqueCtrl.right_arm_JointFeedback.
+1.167 [ Info   ][ScriptingService] Port: feedback needs to be connected, in order to retrieve the joint mapping!
+1.167 [ Info   ][ScriptingService] Port: command needs to be connected, in order to retrieve the joint mapping!
+1.167 [ Info   ][ScriptingService] Port: feedback needs to be connected, in order to retrieve the joint mapping!
+1.167 [ Info   ][ScriptingService] Port: command needs to be connected, in order to retrieve the joint mapping!
+1.168 [ Info   ][ComponentLoader::import(path_list)] Importing directory /home/joshua/cogimon-meeting/workspace_cogimon/build/workshop-extended-example/orocos/gnulinux/RttExamples ...
+1.188 [ Info   ][ComponentLoader::import(path_list)] Loaded multi component library '/home/joshua/cogimon-meeting/workspace_cogimon/build/workshop-extended-example/orocos/gnulinux/RttExamples/libRttExamples-gnulinux.so'
+1.188 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='our_component_left_arm'
+1.188 [ Info   ][our_component_left_arm] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 15 and period 0 (PID= 7876 ).
+1.188 [ Info   ][loadComponent] Adding our_component_left_arm as new peer:  OK.
+1.189 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='our_component_right_arm'
+1.189 [ Info   ][our_component_right_arm] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 15 and period 0 (PID= 7877 ).
+1.189 [ Info   ][loadComponent] Adding our_component_right_arm as new peer:  OK.
+1.189 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=20, CPU affinity=4294967295, with name='our_component_left_arm'
+1.189 [ Warning][Thread] Forcing priority (20) of thread with SCHED_OTHER policy to 0.
+1.189 [ Info   ][our_component_left_arm] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 15 and period 0.05 (PID= 7878 ).
+1.190 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=20, CPU affinity=4294967295, with name='our_component_right_arm'
+1.190 [ Warning][Thread] Forcing priority (20) of thread with SCHED_OTHER policy to 0.
+1.190 [ Info   ][our_component_right_arm] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 15 and period 0.05 (PID= 7879 ).
+1.190 [ Info   ][connect] Connected Port our_component_right_arm.RightArmOutputPort_torque to  coman_right_arm_JointTorqueCtrl.command.
+1.190 [ Info   ][connect] Connected Port our_component_right_arm.RobotFeedbackState to  coman_right_arm_JointTorqueCtrl.feedback.
+1.190 [ Info   ][connect] Connected Port our_component_left_arm.JointPositionOutputPort_left_arm to  coman_left_arm_JointPositionCtrl.command.
+1.191 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='TaskBrowser'
+1.191 [ Info   ][TaskBrowser] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 15 and period 0 (PID= 7880 ).
+1.191 [ Info   ][Logger] Entering Task Deployer
+67.918 [ Info   ][ComponentLoader::import(path_list)] Importing directory /home/joshua/cogimon-meeting/cogimon-minimal-nightly/lib/orocos/gnulinux/rtt_dot_service ...
+67.918 [ Info   ][ComponentLoader::import(path_list)] Loading plugin libraries from directory /home/joshua/cogimon-meeting/cogimon-minimal-nightly/lib/orocos/gnulinux/rtt_dot_service/plugins ...
+67.941 [ Info   ][ComponentLoader::import(path_list)] Loaded RTT Service 'dot' from 'rtt_dot_service'
+79.490 [ Info   ][Logger] Loading Service or Plugin dot in TaskContext Deployer
+624.651 [ Info   ][Logger] Ignoring deployment shutdown function due to missing peer.
+624.651 [ Info   ][stopComponentsGroup] Stopping group 0
+624.651 [ Info   ][stopComponentsGroup] Stopped our_component_right_arm
+624.651 [ Info   ][stopComponentsGroup] Stopped our_component_left_arm
+624.652 [ Info   ][stopComponentsGroup] Stopped coman_right_arm_JointTorqueCtrl
+624.664 [ Info   ][stopComponentsGroup] Stopped coman_left_arm_JointPositionCtrl
+624.664 [ Info   ][stopComponentsGroup] Stopped coman_gazebo
+624.665 [ Info   ][stopComponentsGroup] Stopped gazebo
+624.666 [ Info   ][cleanupComponentsGroup] Cleaning up group 0
+624.666 [ Info   ][cleanupComponentsGroup] Cleaned up our_component_right_arm
+624.666 [ Info   ][cleanupComponentsGroup] Cleaned up our_component_left_arm
+624.666 [ Info   ][cleanupComponentsGroup] Cleaned up coman_right_arm_JointTorqueCtrl
+624.666 [ Info   ][cleanupComponentsGroup] Cleaned up coman_left_arm_JointPositionCtrl
+624.666 [ Info   ][cleanupComponentsGroup] Cleaned up coman_gazebo
+624.666 [ Info   ][cleanupComponentsGroup] Cleaned up gazebo
+624.666 [ Info   ][Logger] Unloading group 0
+624.690 [ Info   ][Logger] Disconnected and destroyed our_component_right_arm
+624.740 [ Info   ][Logger] Disconnected and destroyed our_component_left_arm
+624.742 [ Info   ][Logger] Disconnected and destroyed coman_right_arm_JointTorqueCtrl
+624.744 [ Info   ][Logger] Disconnected and destroyed coman_left_arm_JointPositionCtrl
+624.745 [ Info   ][Logger] Disconnected and destroyed coman_gazebo

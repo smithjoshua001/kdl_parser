@@ -1,0 +1,1270 @@
+%!PS-Adobe-3.0
+%%Creator: graphviz version 2.36.0 (20140111.2315)
+%%Title: G
+%%Pages: (atend)
+%%BoundingBox: (atend)
+%%EndComments
+save
+%%BeginProlog
+/DotDict 200 dict def
+DotDict begin
+
+/setupLatin1 {
+mark
+/EncodingVector 256 array def
+ EncodingVector 0
+
+ISOLatin1Encoding 0 255 getinterval putinterval
+EncodingVector 45 /hyphen put
+
+% Set up ISO Latin 1 character encoding
+/starnetISO {
+        dup dup findfont dup length dict begin
+        { 1 index /FID ne { def }{ pop pop } ifelse
+        } forall
+        /Encoding EncodingVector def
+        currentdict end definefont
+} def
+/Times-Roman starnetISO def
+/Times-Italic starnetISO def
+/Times-Bold starnetISO def
+/Times-BoldItalic starnetISO def
+/Helvetica starnetISO def
+/Helvetica-Oblique starnetISO def
+/Helvetica-Bold starnetISO def
+/Helvetica-BoldOblique starnetISO def
+/Courier starnetISO def
+/Courier-Oblique starnetISO def
+/Courier-Bold starnetISO def
+/Courier-BoldOblique starnetISO def
+cleartomark
+} bind def
+
+%%BeginResource: procset graphviz 0 0
+/coord-font-family /Times-Roman def
+/default-font-family /Times-Roman def
+/coordfont coord-font-family findfont 8 scalefont def
+
+/InvScaleFactor 1.0 def
+/set_scale {
+       dup 1 exch div /InvScaleFactor exch def
+       scale
+} bind def
+
+% styles
+/solid { [] 0 setdash } bind def
+/dashed { [9 InvScaleFactor mul dup ] 0 setdash } bind def
+/dotted { [1 InvScaleFactor mul 6 InvScaleFactor mul] 0 setdash } bind def
+/invis {/fill {newpath} def /stroke {newpath} def /show {pop newpath} def} bind def
+/bold { 2 setlinewidth } bind def
+/filled { } bind def
+/unfilled { } bind def
+/rounded { } bind def
+/diagonals { } bind def
+/tapered { } bind def
+
+% hooks for setting color 
+/nodecolor { sethsbcolor } bind def
+/edgecolor { sethsbcolor } bind def
+/graphcolor { sethsbcolor } bind def
+/nopcolor {pop pop pop} bind def
+
+/beginpage {	% i j npages
+	/npages exch def
+	/j exch def
+	/i exch def
+	/str 10 string def
+	npages 1 gt {
+		gsave
+			coordfont setfont
+			0 0 moveto
+			(\() show i str cvs show (,) show j str cvs show (\)) show
+		grestore
+	} if
+} bind def
+
+/set_font {
+	findfont exch
+	scalefont setfont
+} def
+
+% draw text fitted to its expected width
+/alignedtext {			% width text
+	/text exch def
+	/width exch def
+	gsave
+		width 0 gt {
+			[] 0 setdash
+			text stringwidth pop width exch sub text length div 0 text ashow
+		} if
+	grestore
+} def
+
+/boxprim {				% xcorner ycorner xsize ysize
+		4 2 roll
+		moveto
+		2 copy
+		exch 0 rlineto
+		0 exch rlineto
+		pop neg 0 rlineto
+		closepath
+} bind def
+
+/ellipse_path {
+	/ry exch def
+	/rx exch def
+	/y exch def
+	/x exch def
+	matrix currentmatrix
+	newpath
+	x y translate
+	rx ry scale
+	0 0 1 0 360 arc
+	setmatrix
+} bind def
+
+/endpage { showpage } bind def
+/showpage { } def
+
+/layercolorseq
+	[	% layer color sequence - darkest to lightest
+		[0 0 0]
+		[.2 .8 .8]
+		[.4 .8 .8]
+		[.6 .8 .8]
+		[.8 .8 .8]
+	]
+def
+
+/layerlen layercolorseq length def
+
+/setlayer {/maxlayer exch def /curlayer exch def
+	layercolorseq curlayer 1 sub layerlen mod get
+	aload pop sethsbcolor
+	/nodecolor {nopcolor} def
+	/edgecolor {nopcolor} def
+	/graphcolor {nopcolor} def
+} bind def
+
+/onlayer { curlayer ne {invis} if } def
+
+/onlayers {
+	/myupper exch def
+	/mylower exch def
+	curlayer mylower lt
+	curlayer myupper gt
+	or
+	{invis} if
+} def
+
+/curlayer 0 def
+
+%%EndResource
+%%EndProlog
+%%BeginSetup
+14 default-font-family set_font
+1 setmiterlimit
+% /arrowlength 10 def
+% /arrowwidth 5 def
+
+% make sure pdfmark is harmless for PS-interpreters other than Distiller
+/pdfmark where {pop} {userdict /pdfmark /cleartomark load put} ifelse
+% make '<<' and '>>' safe on PS Level 1 devices
+/languagelevel where {pop languagelevel}{1} ifelse
+2 lt {
+    userdict (<<) cvn ([) cvn load put
+    userdict (>>) cvn ([) cvn load put
+} if
+
+%%EndSetup
+setupLatin1
+%%Page: 1 1
+%%PageBoundingBox: 36 36 2394 984
+%%PageOrientation: Portrait
+0 0 1 beginpage
+gsave
+36 36 2358 948 boxprim clip newpath
+1 1 set_scale 0 rotate 40 40 translate
+% coman_gazebo
+gsave
+0.53725 0.24706 0.90196 nodecolor
+1024 693 65 65 ellipse_path fill
+1 setlinewidth
+filled
+0.53725 0.24706 0.90196 nodecolor
+1024 693 65 65 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+983 689.3 moveto 82 (coman_gazebo) alignedtext
+grestore
+% left_leg_JointFeedback
+gsave
+0 0 0 nodecolor
+1338 558 1.8 1.8 ellipse_path fill
+1 setlinewidth
+filled
+0 0 0 nodecolor
+1338 558 1.8 1.8 ellipse_path stroke
+grestore
+% coman_gazebo->left_leg_JointFeedback
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1089.03 689.51 moveto
+1153.76 683.74 1252.39 665.64 1316 610 curveto
+1327.97 599.53 1333.65 581.38 1336.17 569.79 curveto
+stroke
+0 0 0 edgecolor
+newpath 1339.63 570.32 moveto
+1337.9 559.87 lineto
+1332.74 569.12 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1339.63 570.32 moveto
+1337.9 559.87 lineto
+1332.74 569.12 lineto
+closepath stroke
+0 0 0 edgecolor
+14 /Times-Roman set_font
+1328 598.3 moveto 127 (left_leg_JointFeedback) alignedtext
+grestore
+% right_leg_JointFeedback
+gsave
+0 0 0 nodecolor
+740 558 1.8 1.8 ellipse_path fill
+1 setlinewidth
+filled
+0 0 0 nodecolor
+740 558 1.8 1.8 ellipse_path stroke
+grestore
+% coman_gazebo->right_leg_JointFeedback
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 959.08 688.84 moveto
+898.72 682.47 810.21 663.83 756 610 curveto
+745.26 599.33 741.71 581.55 740.55 570.06 curveto
+stroke
+0 0 0 edgecolor
+newpath 744.03 569.66 moveto
+739.99 559.86 lineto
+737.04 570.04 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 744.03 569.66 moveto
+739.99 559.86 lineto
+737.04 570.04 lineto
+closepath stroke
+0 0 0 edgecolor
+14 /Times-Roman set_font
+756 598.3 moveto 134 (right_leg_JointFeedback) alignedtext
+grestore
+% torso_JointFeedback
+gsave
+0 0 0 nodecolor
+897 558 1.8 1.8 ellipse_path fill
+1 setlinewidth
+filled
+0 0 0 nodecolor
+897 558 1.8 1.8 ellipse_path stroke
+grestore
+% coman_gazebo->torso_JointFeedback
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 963.7 668.14 moveto
+938.77 654.95 912.38 635.9 898 610 curveto
+891.07 597.51 892.47 580.51 894.46 569.64 curveto
+stroke
+0 0 0 edgecolor
+newpath 897.9 570.32 moveto
+896.76 559.79 lineto
+891.08 568.73 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 897.9 570.32 moveto
+896.76 559.79 lineto
+891.08 568.73 lineto
+closepath stroke
+0 0 0 edgecolor
+14 /Times-Roman set_font
+898 598.3 moveto 112 (torso_JointFeedback) alignedtext
+grestore
+% coman_gazeboleft_arm_JointFeedbackcoman_left_arm_JointPositionCtrlleft_arm_JointFeedback
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+newpath 612 576 moveto
+558 576 lineto
+558 540 lineto
+612 540 lineto
+closepath stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+573.5 554.3 moveto 23 (data) alignedtext
+grestore
+% coman_gazebo->coman_gazeboleft_arm_JointFeedbackcoman_left_arm_JointPositionCtrlleft_arm_JointFeedback
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 959.18 686.03 moveto
+857.11 675.52 665 650.85 611 610 curveto
+602.97 603.92 597.22 594.67 593.21 585.7 curveto
+stroke
+0 0 0 edgecolor
+newpath 596.41 584.28 moveto
+589.51 576.24 lineto
+589.89 586.83 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 596.41 584.28 moveto
+589.51 576.24 lineto
+589.89 586.83 lineto
+closepath stroke
+0 0 0 edgecolor
+14 /Times-Roman set_font
+611 598.3 moveto 132 (left_arm_JointFeedback) alignedtext
+grestore
+% coman_gazeboright_arm_JointFeedbackcoman_right_arm_JointTorqueCtrlright_arm_JointFeedback
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+newpath 1114 576 moveto
+1060 576 lineto
+1060 540 lineto
+1114 540 lineto
+closepath stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1075.5 554.3 moveto 23 (data) alignedtext
+grestore
+% coman_gazebo->coman_gazeboright_arm_JointFeedbackcoman_right_arm_JointTorqueCtrlright_arm_JointFeedback
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1051.45 634.05 moveto
+1059.45 617.15 1067.81 599.5 1074.41 585.57 curveto
+stroke
+0 0 0 edgecolor
+newpath 1077.76 586.68 moveto
+1078.88 576.14 lineto
+1071.43 583.68 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1077.76 586.68 moveto
+1078.88 576.14 lineto
+1071.43 583.68 lineto
+closepath stroke
+0 0 0 edgecolor
+14 /Times-Roman set_font
+1071 598.3 moveto 139 (right_arm_JointFeedback) alignedtext
+grestore
+% coman_left_arm_JointPositionCtrlleft_arm_JointPositionCtrlcoman_gazeboleft_arm_JointPositionCtrl
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+newpath 863 306 moveto
+809 306 lineto
+809 270 lineto
+863 270 lineto
+closepath stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+824.5 284.3 moveto 23 (data) alignedtext
+grestore
+% coman_left_arm_JointPositionCtrlleft_arm_JointPositionCtrlcoman_gazeboleft_arm_JointPositionCtrl->coman_gazebo
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 863.26 294.19 moveto
+881.23 298.98 903.97 307.9 918 324 curveto
+977.93 392.77 938.51 437.16 972 522 curveto
+985.28 555.66 998.83 559.58 1010 594 curveto
+1012.49 601.67 1014.54 609.82 1016.22 618.02 curveto
+stroke
+0 0 0 edgecolor
+newpath 1012.81 618.83 moveto
+1018.1 628.01 lineto
+1019.69 617.54 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1012.81 618.83 moveto
+1018.1 628.01 lineto
+1019.69 617.54 lineto
+closepath stroke
+0 0 0 edgecolor
+14 /Times-Roman set_font
+972 510.3 moveto 145 (left_arm_JointPositionCtrl) alignedtext
+grestore
+% coman_left_arm_JointPositionCtrl
+gsave
+0.33333 1 1 nodecolor
+585 423 104.21 65 ellipse_path fill
+1 setlinewidth
+filled
+0.33333 1 1 nodecolor
+585 423 104.21 65 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+490.5 419.3 moveto 189 (coman_left_arm_JointPositionCtrl) alignedtext
+grestore
+% coman_left_arm_JointPositionCtrl->coman_left_arm_JointPositionCtrlleft_arm_JointPositionCtrlcoman_gazeboleft_arm_JointPositionCtrl
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 663.73 380.28 moveto
+709.26 356.16 764.38 326.95 799.8 308.18 curveto
+stroke
+0 0 0 edgecolor
+newpath 801.61 311.19 moveto
+808.8 303.41 lineto
+798.33 305 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 801.61 311.19 moveto
+808.8 303.41 lineto
+798.33 305 lineto
+closepath stroke
+0 0 0 edgecolor
+14 /Times-Roman set_font
+769 328.3 moveto 145 (left_arm_JointPositionCtrl) alignedtext
+grestore
+% feedback
+gsave
+0 0 0 nodecolor
+585 288 1.8 1.8 ellipse_path fill
+1 setlinewidth
+filled
+0 0 0 nodecolor
+585 288 1.8 1.8 ellipse_path stroke
+grestore
+% coman_left_arm_JointPositionCtrl->feedback
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 585 357.84 moveto
+585 335.68 585 313.18 585 300.19 curveto
+stroke
+0 0 0 edgecolor
+newpath 588.5 299.89 moveto
+585 289.89 lineto
+581.5 299.89 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 588.5 299.89 moveto
+585 289.89 lineto
+581.5 299.89 lineto
+closepath stroke
+0 0 0 edgecolor
+14 /Times-Roman set_font
+585 328.3 moveto 49 (feedback) alignedtext
+grestore
+% left_arm_JointImpedanceCtrl
+gsave
+0 0 0 nodecolor
+1 875 1.8 1.8 ellipse_path fill
+1 setlinewidth
+filled
+0 0 0 nodecolor
+1 875 1.8 1.8 ellipse_path stroke
+grestore
+% left_arm_JointImpedanceCtrl->coman_gazebo
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1.12 873.19 moveto
+2.32 865.22 13.18 800.73 52 776 curveto
+90.74 751.32 419.21 761.61 465 758 curveto
+639.05 744.26 842.55 718.51 949.54 704.22 curveto
+stroke
+0 0 0 edgecolor
+newpath 950.14 707.67 moveto
+959.59 702.87 lineto
+949.21 700.73 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 950.14 707.67 moveto
+959.59 702.87 lineto
+949.21 700.73 lineto
+closepath stroke
+0 0 0 edgecolor
+14 /Times-Roman set_font
+52 780.3 moveto 161 (left_arm_JointImpedanceCtrl) alignedtext
+grestore
+% left_arm_JointTorqueCtrl
+gsave
+0 0 0 nodecolor
+185 875 1.8 1.8 ellipse_path fill
+1 setlinewidth
+filled
+0 0 0 nodecolor
+185 875 1.8 1.8 ellipse_path stroke
+grestore
+% left_arm_JointTorqueCtrl->coman_gazebo
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 185.11 873.2 moveto
+186.2 865.32 196.13 801.49 234 776 curveto
+276.71 747.25 413.75 762.93 465 758 curveto
+638.79 741.29 842.39 716.71 949.47 703.4 curveto
+stroke
+0 0 0 edgecolor
+newpath 950.03 706.86 moveto
+959.52 702.15 lineto
+949.17 699.91 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 950.03 706.86 moveto
+959.52 702.15 lineto
+949.17 699.91 lineto
+closepath stroke
+0 0 0 edgecolor
+14 /Times-Roman set_font
+234 780.3 moveto 140 (left_arm_JointTorqueCtrl) alignedtext
+grestore
+% left_leg_JointPositionCtrl
+gsave
+0 0 0 nodecolor
+348 875 1.8 1.8 ellipse_path fill
+1 setlinewidth
+filled
+0 0 0 nodecolor
+348 875 1.8 1.8 ellipse_path stroke
+grestore
+% left_leg_JointPositionCtrl->coman_gazebo
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 348.09 873.01 moveto
+348.96 864.43 356.37 802.47 392 776 curveto
+414.16 759.54 786.03 718.89 948.76 701.79 curveto
+stroke
+0 0 0 edgecolor
+newpath 949.59 705.22 moveto
+959.17 700.69 lineto
+948.86 698.26 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 949.59 705.22 moveto
+959.17 700.69 lineto
+948.86 698.26 lineto
+closepath stroke
+0 0 0 edgecolor
+14 /Times-Roman set_font
+392 780.3 moveto 140 (left_leg_JointPositionCtrl) alignedtext
+grestore
+% left_leg_JointImpedanceCtrl
+gsave
+0 0 0 nodecolor
+511 875 1.8 1.8 ellipse_path fill
+1 setlinewidth
+filled
+0 0 0 nodecolor
+511 875 1.8 1.8 ellipse_path stroke
+grestore
+% left_leg_JointImpedanceCtrl->coman_gazebo
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 511.04 873.02 moveto
+511.43 864.57 515.39 803.51 549 776 curveto
+608.94 726.94 830.54 705.96 948.68 698.1 curveto
+stroke
+0 0 0 edgecolor
+newpath 948.99 701.58 moveto
+958.74 697.44 lineto
+948.53 694.6 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 948.99 701.58 moveto
+958.74 697.44 lineto
+948.53 694.6 lineto
+closepath stroke
+0 0 0 edgecolor
+14 /Times-Roman set_font
+549 780.3 moveto 156 (left_leg_JointImpedanceCtrl) alignedtext
+grestore
+% left_leg_JointTorqueCtrl
+gsave
+0 0 0 nodecolor
+690 875 1.8 1.8 ellipse_path fill
+1 setlinewidth
+filled
+0 0 0 nodecolor
+690 875 1.8 1.8 ellipse_path stroke
+grestore
+% left_leg_JointTorqueCtrl->coman_gazebo
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 689.97 872.83 moveto
+689.79 863.85 689.81 805.19 720 776 curveto
+781.11 716.91 880.16 699.35 948.51 694.67 curveto
+stroke
+0 0 0 edgecolor
+newpath 949.01 698.15 moveto
+958.78 694.05 lineto
+948.59 691.16 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 949.01 698.15 moveto
+958.78 694.05 lineto
+948.59 691.16 lineto
+closepath stroke
+0 0 0 edgecolor
+14 /Times-Roman set_font
+720 780.3 moveto 135 (left_leg_JointTorqueCtrl) alignedtext
+grestore
+% right_arm_JointPositionCtrl
+gsave
+0 0 0 nodecolor
+848 875 1.8 1.8 ellipse_path fill
+1 setlinewidth
+filled
+0 0 0 nodecolor
+848 875 1.8 1.8 ellipse_path stroke
+grestore
+% right_arm_JointPositionCtrl->coman_gazebo
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 847.88 872.9 moveto
+847.03 864.41 842.56 808.79 867 776 curveto
+887.98 747.85 921.48 728.49 952.16 715.69 curveto
+stroke
+0 0 0 edgecolor
+newpath 953.59 718.89 moveto
+961.57 711.93 lineto
+950.99 712.39 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 953.59 718.89 moveto
+961.57 711.93 lineto
+950.99 712.39 lineto
+closepath stroke
+0 0 0 edgecolor
+14 /Times-Roman set_font
+867 780.3 moveto 153 (right_arm_JointPositionCtrl) alignedtext
+grestore
+% right_arm_JointImpedanceCtrl
+gsave
+0 0 0 nodecolor
+1024 875 1.8 1.8 ellipse_path fill
+1 setlinewidth
+filled
+0 0 0 nodecolor
+1024 875 1.8 1.8 ellipse_path stroke
+grestore
+% right_arm_JointImpedanceCtrl->coman_gazebo
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1024 873.2 moveto
+1024 866.18 1024 814.41 1024 768.31 curveto
+stroke
+0 0 0 edgecolor
+newpath 1027.5 768.27 moveto
+1024 758.27 lineto
+1020.5 768.27 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1027.5 768.27 moveto
+1024 758.27 lineto
+1020.5 768.27 lineto
+closepath stroke
+0 0 0 edgecolor
+14 /Times-Roman set_font
+1024 780.3 moveto 169 (right_arm_JointImpedanceCtrl) alignedtext
+grestore
+% coman_right_arm_JointTorqueCtrlright_arm_JointTorqueCtrlcoman_gazeboright_arm_JointTorqueCtrl
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+newpath 1261 306 moveto
+1207 306 lineto
+1207 270 lineto
+1261 270 lineto
+closepath stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1222.5 284.3 moveto 23 (data) alignedtext
+grestore
+% coman_right_arm_JointTorqueCtrlright_arm_JointTorqueCtrlcoman_gazeboright_arm_JointTorqueCtrl->coman_gazebo
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1261.19 298.7 moveto
+1272.53 304.24 1284.54 312.45 1291 324 curveto
+1334.21 401.23 1299.58 438.6 1270 522 curveto
+1254.5 565.69 1249.28 579.93 1214 610 curveto
+1180.09 638.89 1134.46 659.03 1096.41 672.12 curveto
+stroke
+0 0 0 edgecolor
+newpath 1095.29 668.81 moveto
+1086.92 675.3 lineto
+1097.51 675.45 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1095.29 668.81 moveto
+1086.92 675.3 lineto
+1097.51 675.45 lineto
+closepath stroke
+0 0 0 edgecolor
+14 /Times-Roman set_font
+1276 510.3 moveto 148 (right_arm_JointTorqueCtrl) alignedtext
+grestore
+% coman_right_arm_JointTorqueCtrl
+gsave
+0.33333 1 1 nodecolor
+1126 423 105.24 65 ellipse_path fill
+1 setlinewidth
+filled
+0.33333 1 1 nodecolor
+1126 423 105.24 65 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1030.5 419.3 moveto 191 (coman_right_arm_JointTorqueCtrl) alignedtext
+grestore
+% coman_right_arm_JointTorqueCtrl->coman_right_arm_JointTorqueCtrlright_arm_JointTorqueCtrlcoman_gazeboright_arm_JointTorqueCtrl
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1127.49 357.78 moveto
+1130.31 345.56 1135.11 333.61 1143 324 curveto
+1156.3 307.81 1178 299.1 1196.88 294.41 curveto
+stroke
+0 0 0 edgecolor
+newpath 1197.7 297.81 moveto
+1206.72 292.26 lineto
+1196.21 290.98 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1197.7 297.81 moveto
+1206.72 292.26 lineto
+1196.21 290.98 lineto
+closepath stroke
+0 0 0 edgecolor
+14 /Times-Roman set_font
+1143 328.3 moveto 148 (right_arm_JointTorqueCtrl) alignedtext
+grestore
+% coman_right_arm_JointTorqueCtrlfeedbackour_component_right_armRobotFeedbackState
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+newpath 1035 306 moveto
+981 306 lineto
+981 270 lineto
+1035 270 lineto
+closepath stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+996.5 284.3 moveto 23 (data) alignedtext
+grestore
+% coman_right_arm_JointTorqueCtrl->coman_right_arm_JointTorqueCtrlfeedbackour_component_right_armRobotFeedbackState
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1070.75 367.36 moveto
+1062.26 358.4 1053.75 349.08 1046 340 curveto
+1039.19 332.02 1032.2 322.94 1026.1 314.68 curveto
+stroke
+0 0 0 edgecolor
+newpath 1028.83 312.47 moveto
+1020.12 306.44 lineto
+1023.16 316.59 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1028.83 312.47 moveto
+1020.12 306.44 lineto
+1023.16 316.59 lineto
+closepath stroke
+0 0 0 edgecolor
+14 /Times-Roman set_font
+1046 328.3 moveto 49 (feedback) alignedtext
+grestore
+% right_leg_JointPositionCtrl
+gsave
+0 0 0 nodecolor
+1216 875 1.8 1.8 ellipse_path fill
+1 setlinewidth
+filled
+0 0 0 nodecolor
+1216 875 1.8 1.8 ellipse_path stroke
+grestore
+% right_leg_JointPositionCtrl->coman_gazebo
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1216.09 872.89 moveto
+1216.7 864.32 1219.59 808.23 1194 776 curveto
+1169.6 745.27 1130.83 725.35 1096.48 712.85 curveto
+stroke
+0 0 0 edgecolor
+newpath 1097.51 709.5 moveto
+1086.92 709.51 lineto
+1095.21 716.11 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1097.51 709.5 moveto
+1086.92 709.51 lineto
+1095.21 716.11 lineto
+closepath stroke
+0 0 0 edgecolor
+14 /Times-Roman set_font
+1203 780.3 moveto 148 (right_leg_JointPositionCtrl) alignedtext
+grestore
+% right_leg_JointImpedanceCtrl
+gsave
+0 0 0 nodecolor
+1387 875 1.8 1.8 ellipse_path fill
+1 setlinewidth
+filled
+0 0 0 nodecolor
+1387 875 1.8 1.8 ellipse_path stroke
+grestore
+% right_leg_JointImpedanceCtrl->coman_gazebo
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1387.01 873.04 moveto
+1387.05 864.78 1386.2 805.01 1355 776 curveto
+1318.14 741.73 1184.25 716.81 1098.46 703.94 curveto
+stroke
+0 0 0 edgecolor
+newpath 1098.91 700.47 moveto
+1088.51 702.47 lineto
+1097.89 707.39 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1098.91 700.47 moveto
+1088.51 702.47 lineto
+1097.89 707.39 lineto
+closepath stroke
+0 0 0 edgecolor
+14 /Times-Roman set_font
+1368 780.3 moveto 163 (right_leg_JointImpedanceCtrl) alignedtext
+grestore
+% right_leg_JointTorqueCtrl
+gsave
+0 0 0 nodecolor
+1573 875 1.8 1.8 ellipse_path fill
+1 setlinewidth
+filled
+0 0 0 nodecolor
+1573 875 1.8 1.8 ellipse_path stroke
+grestore
+% right_leg_JointTorqueCtrl->coman_gazebo
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1572.96 873.02 moveto
+1572.59 864.54 1568.77 803.31 1535 776 curveto
+1469.42 722.97 1225.25 703.62 1099.66 697.07 curveto
+stroke
+0 0 0 edgecolor
+newpath 1099.53 693.56 moveto
+1089.36 696.55 lineto
+1099.17 700.55 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1099.53 693.56 moveto
+1089.36 696.55 lineto
+1099.17 700.55 lineto
+closepath stroke
+0 0 0 edgecolor
+14 /Times-Roman set_font
+1549 780.3 moveto 142 (right_leg_JointTorqueCtrl) alignedtext
+grestore
+% torso_JointPositionCtrl
+gsave
+0 0 0 nodecolor
+1738 875 1.8 1.8 ellipse_path fill
+1 setlinewidth
+filled
+0 0 0 nodecolor
+1738 875 1.8 1.8 ellipse_path stroke
+grestore
+% torso_JointPositionCtrl->coman_gazebo
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1737.92 873.01 moveto
+1737.16 864.41 1730.48 802.39 1695 776 curveto
+1602.2 706.98 1254.55 695.63 1099.49 694.06 curveto
+stroke
+0 0 0 edgecolor
+newpath 1099.14 690.56 moveto
+1089.11 693.97 lineto
+1099.08 697.56 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1099.14 690.56 moveto
+1089.11 693.97 lineto
+1099.08 697.56 lineto
+closepath stroke
+0 0 0 edgecolor
+14 /Times-Roman set_font
+1710 780.3 moveto 126 (torso_JointPositionCtrl) alignedtext
+grestore
+% torso_JointImpedanceCtrl
+gsave
+0 0 0 nodecolor
+1887 875 1.8 1.8 ellipse_path fill
+1 setlinewidth
+filled
+0 0 0 nodecolor
+1887 875 1.8 1.8 ellipse_path stroke
+grestore
+% torso_JointImpedanceCtrl->coman_gazebo
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1886.88 873 moveto
+1885.79 864.33 1876.76 801.8 1840 776 curveto
+1780.06 733.94 1289.54 706.53 1099.14 697.38 curveto
+stroke
+0 0 0 edgecolor
+newpath 1099.1 693.87 moveto
+1088.95 696.89 lineto
+1098.77 700.87 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1099.1 693.87 moveto
+1088.95 696.89 lineto
+1098.77 700.87 lineto
+closepath stroke
+0 0 0 edgecolor
+14 /Times-Roman set_font
+1855 780.3 moveto 142 (torso_JointImpedanceCtrl) alignedtext
+grestore
+% torso_JointTorqueCtrl
+gsave
+0 0 0 nodecolor
+2052 875 1.8 1.8 ellipse_path fill
+1 setlinewidth
+filled
+0 0 0 nodecolor
+2052 875 1.8 1.8 ellipse_path stroke
+grestore
+% torso_JointTorqueCtrl->coman_gazebo
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 2051.88 873.2 moveto
+2050.61 865.32 2039.32 801.51 2001 776 curveto
+1926.55 726.44 1315.77 702.98 1099.53 696.18 curveto
+stroke
+0 0 0 edgecolor
+newpath 1099.33 692.67 moveto
+1089.23 695.86 lineto
+1099.11 699.67 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1099.33 692.67 moveto
+1089.23 695.86 lineto
+1099.11 699.67 lineto
+closepath stroke
+0 0 0 edgecolor
+14 /Times-Roman set_font
+2019 780.3 moveto 121 (torso_JointTorqueCtrl) alignedtext
+grestore
+% coman_gazeboleft_arm_JointFeedbackcoman_left_arm_JointPositionCtrlleft_arm_JointFeedback->coman_left_arm_JointPositionCtrl
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 585 539.88 moveto
+585 528.95 585 513.93 585 498.33 curveto
+stroke
+0 0 0 edgecolor
+newpath 588.5 498.04 moveto
+585 488.04 lineto
+581.5 498.04 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 588.5 498.04 moveto
+585 488.04 lineto
+581.5 498.04 lineto
+closepath stroke
+0 0 0 edgecolor
+14 /Times-Roman set_font
+585 510.3 moveto 132 (left_arm_JointFeedback) alignedtext
+grestore
+% our_component_left_armJointPositionOutputPort_left_armcoman_left_arm_JointPositionCtrlcommand
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+newpath 438 576 moveto
+384 576 lineto
+384 540 lineto
+438 540 lineto
+closepath stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+399.5 554.3 moveto 23 (data) alignedtext
+grestore
+% our_component_left_armJointPositionOutputPort_left_armcoman_left_arm_JointPositionCtrlcommand->coman_left_arm_JointPositionCtrl
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 433.39 539.88 moveto
+453.19 524.75 483.22 501.8 511.34 480.3 curveto
+stroke
+0 0 0 edgecolor
+newpath 513.78 482.84 moveto
+519.6 473.99 lineto
+509.53 477.28 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 513.78 482.84 moveto
+519.6 473.99 lineto
+509.53 477.28 lineto
+closepath stroke
+0 0 0 edgecolor
+14 /Times-Roman set_font
+478 510.3 moveto 55 (command) alignedtext
+grestore
+% our_component_left_arm
+gsave
+0.53725 0.24706 0.90196 nodecolor
+378 693 78.61 65 ellipse_path fill
+1 setlinewidth
+filled
+0.53725 0.24706 0.90196 nodecolor
+378 693 78.61 65 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+308.5 689.3 moveto 139 (our_component_left_arm) alignedtext
+grestore
+% our_component_left_arm->our_component_left_armJointPositionOutputPort_left_armcoman_left_arm_JointPositionCtrlcommand
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 372 627.97 moveto
+372.76 616.37 374.82 604.61 379 594 curveto
+380.38 590.5 382.29 587.14 384.49 583.97 curveto
+stroke
+0 0 0 edgecolor
+newpath 387.29 586.07 moveto
+390.84 576.09 lineto
+381.84 581.67 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 387.29 586.07 moveto
+390.84 576.09 lineto
+381.84 581.67 lineto
+closepath stroke
+0 0 0 edgecolor
+14 /Times-Roman set_font
+379 598.3 moveto 184 (JointPositionOutputPort_left_arm) alignedtext
+grestore
+% coman_gazeboright_arm_JointFeedbackcoman_right_arm_JointTorqueCtrlright_arm_JointFeedback->coman_right_arm_JointTorqueCtrl
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1108.57 539.67 moveto
+1113.52 534.53 1118.16 528.52 1121 522 curveto
+1124.27 514.51 1126.48 506.38 1127.93 498.12 curveto
+stroke
+0 0 0 edgecolor
+newpath 1131.42 498.39 moveto
+1129.33 488.01 lineto
+1124.49 497.43 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1131.42 498.39 moveto
+1129.33 488.01 lineto
+1124.49 497.43 lineto
+closepath stroke
+0 0 0 edgecolor
+14 /Times-Roman set_font
+1127 510.3 moveto 139 (right_arm_JointFeedback) alignedtext
+grestore
+% our_component_right_armRightArmOutputPort_torquecoman_right_arm_JointTorqueCtrlcommand
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+newpath 1050 36 moveto
+996 36 lineto
+996 0 lineto
+1050 0 lineto
+closepath stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1011.5 14.3 moveto 23 (data) alignedtext
+grestore
+% our_component_right_armRightArmOutputPort_torquecoman_right_arm_JointTorqueCtrlcommand->coman_right_arm_JointTorqueCtrl
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1050.01 25.03 moveto
+1065.8 30.04 1084.62 38.87 1095 54 curveto
+1126.59 100.06 1129.54 253.86 1128.2 347.43 curveto
+stroke
+0 0 0 edgecolor
+newpath 1124.7 347.63 moveto
+1128.03 357.69 lineto
+1131.7 347.75 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1124.7 347.63 moveto
+1128.03 357.69 lineto
+1131.7 347.75 lineto
+closepath stroke
+0 0 0 edgecolor
+14 /Times-Roman set_font
+1128 240.3 moveto 55 (command) alignedtext
+grestore
+% our_component_right_arm
+gsave
+0.53725 0.24706 0.90196 nodecolor
+946 153 82.21 65 ellipse_path fill
+1 setlinewidth
+filled
+0.53725 0.24706 0.90196 nodecolor
+946 153 82.21 65 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+872.5 149.3 moveto 147 (our_component_right_arm) alignedtext
+grestore
+% our_component_right_arm->our_component_right_armRightArmOutputPort_torquecoman_right_arm_JointTorqueCtrlcommand
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 928.95 89.23 moveto
+928.74 76.77 931.07 64.35 938 54 curveto
+948.69 38.04 968.12 29.35 985.71 24.62 curveto
+stroke
+0 0 0 edgecolor
+newpath 986.83 27.95 moveto
+995.77 22.27 lineto
+985.24 21.14 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 986.83 27.95 moveto
+995.77 22.27 lineto
+985.24 21.14 lineto
+closepath stroke
+0 0 0 edgecolor
+14 /Times-Roman set_font
+938 58.3 moveto 157 (RightArmOutputPort_torque) alignedtext
+grestore
+% gazebo
+gsave
+0.33333 1 1 nodecolor
+2137 875 65 65 ellipse_path fill
+1 setlinewidth
+filled
+0.33333 1 1 nodecolor
+2137 875 65 65 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+2117.5 871.3 moveto 39 (gazebo) alignedtext
+grestore
+% coman_right_arm_JointTorqueCtrlfeedbackour_component_right_armRobotFeedbackState->our_component_right_arm
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 988.75 269.8 moveto
+983.71 264.5 978.66 258.37 975 252 curveto
+970.49 244.15 966.62 235.53 963.32 226.77 curveto
+stroke
+0 0 0 edgecolor
+newpath 966.58 225.5 moveto
+959.96 217.23 lineto
+959.98 227.83 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 966.58 225.5 moveto
+959.96 217.23 lineto
+959.98 227.83 lineto
+closepath stroke
+0 0 0 edgecolor
+14 /Times-Roman set_font
+975 240.3 moveto 112 (RobotFeedbackState) alignedtext
+grestore
+% Deployer
+gsave
+0.53725 0.24706 0.90196 nodecolor
+2285 875 65 65 ellipse_path fill
+1 setlinewidth
+filled
+0.53725 0.24706 0.90196 nodecolor
+2285 875 65 65 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+2259.5 871.3 moveto 51 (Deployer) alignedtext
+grestore
+endpage
+showpage
+grestore
+%%PageTrailer
+%%EndPage: 1
+%%Trailer
+%%Pages: 1
+%%BoundingBox: 36 36 2394 984
+end
+restore
+%%EOF
