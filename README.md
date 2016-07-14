@@ -1,25 +1,6 @@
-# workshop-extended-example
-Extended template for package with two components.
+# kdl_parser
+Custom Parser, customized from https://github.com/ros/robot_model/
 
 ### Usage:
-```bash
-cd to_your_workspace
-git clone https://github.com/cogimon/workshop-extended-example.git
-cd workshop-extended-example
-mkdir build
-cd build
-cmake -DCMAKE_PREFIX_PATH=/vol/cogimon/cogimon-minimal-nightly ..
-make
-```
-this should compile and create a package/library like:
-```bash
-orocos
-└── gnulinux
-    └── RttExamples
-        └── libRttExamples-gnulinux.so
-```
-Within the build directory:
-```bash
-export RTT_COMPONENT_PATH=$RTT_COMPONENT_PATH:$(pwd)/orocos
-```
-happy coding!
+TBA
+
