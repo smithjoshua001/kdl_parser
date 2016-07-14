@@ -1,4 +1,0 @@
-/home/joshua/cogimon-meeting/cogimon-minimal-nightly/share/rtt_kdl_parser-0.1/rtt_kdl_parser-config.cmake
-/home/joshua/cogimon-meeting/cogimon-minimal-nightly/include/rtt_kdl_parser0.1/rtt_kdl_parser/KDLParser.hpp
-/home/joshua/cogimon-meeting/cogimon-minimal-nightly/lib/librtt_kdl_parser0.1.so
-/home/joshua/cogimon-meeting/cogimon-minimal-nightly/lib/pkgconfig/rtt_kdl_parser-gnulinux.pc

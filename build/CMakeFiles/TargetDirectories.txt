@@ -1,8 +1,0 @@
-/home/joshua/cogimon-meeting/workspace_cogimon/kdl_parser/build/CMakeFiles/install/strip.dir
-/home/joshua/cogimon-meeting/workspace_cogimon/kdl_parser/build/CMakeFiles/rtt_kdl_parser0.1.dir
-/home/joshua/cogimon-meeting/workspace_cogimon/kdl_parser/build/CMakeFiles/uninstall.dir
-/home/joshua/cogimon-meeting/workspace_cogimon/kdl_parser/build/CMakeFiles/edit_cache.dir
-/home/joshua/cogimon-meeting/workspace_cogimon/kdl_parser/build/CMakeFiles/rebuild_cache.dir
-/home/joshua/cogimon-meeting/workspace_cogimon/kdl_parser/build/CMakeFiles/install.dir
-/home/joshua/cogimon-meeting/workspace_cogimon/kdl_parser/build/CMakeFiles/list_install_components.dir
-/home/joshua/cogimon-meeting/workspace_cogimon/kdl_parser/build/CMakeFiles/install/local.dir
