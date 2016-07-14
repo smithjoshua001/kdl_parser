@@ -1,3 +1,11 @@
+#custom excludes
+build/
+*~
+*.txt
+!CMakeLists.txt
+*.log
+.project
+
 # Compiled Object files
 *.slo
 *.lo
